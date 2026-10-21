@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Tidewell</title>
+  <meta name="description" content="Contact the fictional Tidewell institute about data, collaboration or careers.">
+  <link rel="canonical" href="https://tidewell.example/contact">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1217" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tidewell (fictional)">
+  <meta property="og:title" content="Contact | Tidewell">
+  <meta property="og:description" content="Contact the fictional Tidewell institute about data, collaboration or careers.">
+  <meta property="og:url" content="https://tidewell.example/contact">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contact | Tidewell">
+  <meta name="twitter:description" content="Contact the fictional Tidewell institute about data, collaboration or careers.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html"><svg class="brand__mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><path d="M2 10c4-4 8 4 12 0s8 4 12 0M2 17c4-4 8 4 12 0s8 4 12 0M2 24c4-4 8 4 12 0s8 4 12 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Tidewell</span></a>
+      <nav class="nav" aria-label="Primary">
+        <input class="nav__toggle" type="checkbox" id="nav-toggle">
+        <label class="nav__burger" for="nav-toggle">Menu</label>
+        <ul class="nav__list">
+          <li><a class="nav__link" href="research.html">Research</a></li>
+          <li><a class="nav__link" href="data.html">Data</a></li>
+          <li><a class="nav__link" href="publications.html">Publications</a></li>
+          <li><a class="nav__link" href="journal.html">Journal</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="team.html">Team</a></li>
+          <li><a class="nav__link" href="careers.html">Careers</a></li>
+          <li><a class="nav__link" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+<div class="page-header"><div class="container page-header__inner">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol class="breadcrumb__list">
+<li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">Home</a></li>
+<li class="breadcrumb__item" aria-current="page">Contact</li>
+</ol></nav>
+<h1>Contact</h1>
+<p class="lead">Questions about a dataset, a collaboration or a role? Write to us and a named person will reply within five working days.</p>
+</div></div>
+<section class="section">
+<div class="container split split--wide-start">
+<form class="form" action="mailto:hello@tidewell.example" method="post" enctype="text/plain">
+<div class="form__field">
+<label class="form__label" for="name">Full name</label>
+
+<input class="form__control" type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+<p class="form__error" id="name-error">Please enter your name.</p>
+</div>
+<div class="form__field">
+<label class="form__label" for="email">Email address</label>
+<p class="form__hint" id="email-hint">We only use this to reply.</p>
+<input class="form__control" type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-hint email-error">
+<p class="form__error" id="email-error">Please enter a valid email address.</p>
+</div>
+<div class="form__field">
+<label class="form__label" for="topic">Topic</label>
+
+<select class="form__control" id="topic" name="topic" required aria-describedby="topic-error"><option value="">Choose a topic</option><option>Dataset question</option><option>Report an error</option><option>Collaboration</option><option>Careers</option><option>Other</option></select>
+<p class="form__error" id="topic-error">Please choose a topic.</p>
+</div>
+<div class="form__field">
+<label class="form__label" for="message">Message</label>
+<p class="form__hint" id="message-hint">At least 20 characters. Name a dataset ID if relevant.</p>
+<textarea class="form__control form__control--area" id="message" name="message" required minlength="20" maxlength="2000" aria-describedby="message-hint message-error"></textarea>
+<p class="form__error" id="message-error">Please write at least 20 characters.</p>
+</div>
+<div class="cluster"><button class="btn" type="submit">Open in my email app</button></div>
+<p class="form__hint">This site has no server. Submitting opens your email application with the message prepared; nothing is sent until you send it from there.</p>
+</form>
+<aside class="stack stack--lg">
+<div class="callout">
+<h2>Visit</h2>
+<address>Tidewell Institute<br>14 Quay Lane, Port Alder<br>Alder Coast (fictional)</address>
+</div>
+<dl class="facts">
+<div class="facts__row"><dt class="facts__term">Email</dt><dd class="facts__desc">hello@tidewell.example</dd></div>
+<div class="facts__row"><dt class="facts__term">Hours</dt><dd class="facts__desc">Mon&ndash;Fri, 09:00&ndash;17:00</dd></div>
+<div class="facts__row"><dt class="facts__term">Press</dt><dd class="facts__desc">press@tidewell.example</dd></div>
+</dl>
+</aside>
+</div>
+</section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__title">Tidewell</p>
+          <p class="text-muted">Independent coastal climate and ocean-data institute. Port Alder, Alder Coast.</p>
+        </div>
+        <div>
+          <p class="site-footer__title">Institute</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="about.html">About</a></li>
+            <li><a class="site-footer__link" href="team.html">Team</a></li>
+            <li><a class="site-footer__link" href="careers.html">Careers</a></li>
+            <li><a class="site-footer__link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="site-footer__title">Work</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="research.html">Research</a></li>
+            <li><a class="site-footer__link" href="data.html">Data catalogue</a></li>
+            <li><a class="site-footer__link" href="publications.html">Publications</a></li>
+            <li><a class="site-footer__link" href="journal.html">Journal</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="site-footer__title">Help</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="faq.html">FAQ</a></li>
+            <li><a class="site-footer__link" href="legal.html#privacy">Privacy</a></li>
+            <li><a class="site-footer__link" href="legal.html#terms">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer__note">Tidewell is a fictional organisation created for a university Web Engineering assignment. All people, data, figures and publications on this site are invented and must not be treated as real.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why a tide gauge and a satellite disagree at Harrow Sound | Tidewell</title>
+  <meta name="description" content="A fictional Tidewell analysis of why satellite altimetry and a tide gauge report different sea-level trends near the coast.">
+  <link rel="canonical" href="https://tidewell.example/journal-article">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1217" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tidewell (fictional)">
+  <meta property="og:title" content="Why a tide gauge and a satellite disagree at Harrow Sound | Tidewell">
+  <meta property="og:description" content="A fictional Tidewell analysis of why satellite altimetry and a tide gauge report different sea-level trends near the coast.">
+  <meta property="og:url" content="https://tidewell.example/journal-article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Why a tide gauge and a satellite disagree at Harrow Sound | Tidewell">
+  <meta name="twitter:description" content="A fictional Tidewell analysis of why satellite altimetry and a tide gauge report different sea-level trends near the coast.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html"><svg class="brand__mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><path d="M2 10c4-4 8 4 12 0s8 4 12 0M2 17c4-4 8 4 12 0s8 4 12 0M2 24c4-4 8 4 12 0s8 4 12 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Tidewell</span></a>
+      <nav class="nav" aria-label="Primary">
+        <input class="nav__toggle" type="checkbox" id="nav-toggle">
+        <label class="nav__burger" for="nav-toggle">Menu</label>
+        <ul class="nav__list">
+          <li><a class="nav__link" href="research.html">Research</a></li>
+          <li><a class="nav__link" href="data.html">Data</a></li>
+          <li><a class="nav__link" href="publications.html">Publications</a></li>
+          <li><a class="nav__link" href="journal.html">Journal</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="team.html">Team</a></li>
+          <li><a class="nav__link" href="careers.html">Careers</a></li>
+          <li><a class="nav__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+<article class="section">
+<div class="container">
+<div class="article">
+<header class="stack">
+<span class="badge">Analysis</span>
+<h1>Why a tide gauge and a satellite disagree at Harrow Sound</h1>
+<p class="lead">Two instruments, two answers, and what the gap taught us about the land under the gauge.</p>
+<p class="article__meta"><span>By Per Lindqvist</span><time datetime="2024-09-18">18 September 2024</time><span>7 min read</span></p>
+</header>
+<div class="article__body">
+<p>In March we compared two sea-level records for Harrow Sound. The first came from the tide gauge on the Saltwick pier, which has measured the water every six minutes since 1998. The second came from satellite altimetry, averaged over a box twenty kilometres offshore. Over the same 25 years, the gauge reported a rise of 3.9 millimetres a year. The satellite reported 3.1.</p>
+<p>A difference of 0.8 millimetres a year looks small. Over a century it is 80 millimetres, enough to change the height at which a sea wall is specified. So we spent the spring working out which instrument was wrong. The answer, as is often the case, was that neither was.</p>
+<h2>Two different questions</h2>
+<p>A tide gauge measures the height of the water relative to the pier it is bolted to. If the pier sinks, the gauge records the water rising, even if the ocean has not moved. That quantity, relative sea level, is exactly what a harbour experiences, which is why it matters for planning.</p>
+<p>A satellite measures the height of the sea surface relative to the centre of the Earth. It knows nothing about the land. It reports absolute sea level: the ocean itself, regardless of what the coast is doing. Comparing the two directly is like comparing a person's height with their height above sea level and being surprised when the numbers differ.</p>
+<blockquote class="article__quote"><p>The gap between the instruments was not an error. It was a measurement of the land.</p></blockquote>
+<h2>Measuring the land</h2>
+<p>Since 2003 a GNSS receiver at Alder Point has tracked the height of the ground to within a millimetre a year. It shows the coast subsiding at 0.7 millimetres a year, a gentle settling of sediment that has been going on since the last ice age. We have no receiver at Saltwick, but the geology is similar and the two sites are 31 kilometres apart.</p>
+<p>Adding the subsidence to the satellite trend gives 3.8 millimetres a year, within the uncertainty of the gauge value. The disagreement largely disappears once both instruments are asked the same question.</p>
+<h2>What remained</h2>
+<p>Not everything closed. A residual of about 0.1 millimetres a year is inside our error bars, but it deserves attention, for three reasons. Satellite radar returns degrade within a few kilometres of land, so coastal estimates lean on corrections that are least certain exactly where people live. The Saltwick pier was repaired in 2009, and we cannot rule out a small datum shift. And the Sound has a distinctive tidal regime that satellites sample only every ten days, which can alias into the trend.</p>
+<p>We addressed the second point by checking the 2009 repair against levelling surveys. The pier moved by 2 millimetres, which we have now corrected in dataset TW-SL-01, with a dated note in the changelog.</p>
+<h2>What this means for planners</h2>
+<p>The practical lesson is to ask which quantity a number describes. A planner deciding wall heights wants relative sea level at that exact spot. A climate scientist studying ocean warming wants the absolute value. Both are correct, and both are useful, but they cannot be swapped.</p>
+<p>For Harrow Sound, we recommend using the tide-gauge trend of 3.9 millimetres a year for local design, and treating the satellite figure as a check on the ocean as a whole. We will repeat the comparison each year, and publish the receiver data from a second GNSS site at Saltwick once it has run for two full years.</p>
+<p>Everything in this article, including the scripts we used for the comparison, is available through the <a href="data.html">data catalogue</a>. If you find a mistake, please <a href="contact.html">tell us</a>; we will credit you in the changelog.</p>
+</div>
+<p class="text-muted">This article is fictional and all figures are invented.</p>
+<p><a href="journal.html">&larr; Back to the journal</a></p>
+</div>
+</div>
+</article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__title">Tidewell</p>
+          <p class="text-muted">Independent coastal climate and ocean-data institute. Port Alder, Alder Coast.</p>
+        </div>
+        <div>
+          <p class="site-footer__title">Institute</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="about.html">About</a></li>
+            <li><a class="site-footer__link" href="team.html">Team</a></li>
+            <li><a class="site-footer__link" href="careers.html">Careers</a></li>
+            <li><a class="site-footer__link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="site-footer__title">Work</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="research.html">Research</a></li>
+            <li><a class="site-footer__link" href="data.html">Data catalogue</a></li>
+            <li><a class="site-footer__link" href="publications.html">Publications</a></li>
+            <li><a class="site-footer__link" href="journal.html">Journal</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="site-footer__title">Help</p>
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="faq.html">FAQ</a></li>
+            <li><a class="site-footer__link" href="legal.html#privacy">Privacy</a></li>
+            <li><a class="site-footer__link" href="legal.html#terms">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer__note">Tidewell is a fictional organisation created for a university Web Engineering assignment. All people, data, figures and publications on this site are invented and must not be treated as real.</p>
+    </div>
+  </footer>
+</body>
+</html>
