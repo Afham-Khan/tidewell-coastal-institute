@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tidewell.example/</loc></url>
-  <url><loc>https://tidewell.example/about</loc></url>
-  <url><loc>https://tidewell.example/research</loc></url>
-  <url><loc>https://tidewell.example/research-project</loc></url>
-  <url><loc>https://tidewell.example/data</loc></url>
-  <url><loc>https://tidewell.example/publications</loc></url>
-  <url><loc>https://tidewell.example/team</loc></url>
-  <url><loc>https://tidewell.example/journal</loc></url>
-  <url><loc>https://tidewell.example/journal-article</loc></url>
-  <url><loc>https://tidewell.example/careers</loc></url>
-  <url><loc>https://tidewell.example/faq</loc></url>
-  <url><loc>https://tidewell.example/contact</loc></url>
-  <url><loc>https://tidewell.example/legal</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/about</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/research</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/research-project</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/data</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/publications</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/team</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/journal</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/journal-article</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/careers</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/faq</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/contact</loc></url>
+  <url><loc>https://tidewell-coastal-institute.vercel.app/legal</loc></url>
 </urlset>

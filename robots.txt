@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tidewell.example/sitemap.xml
+Sitemap: https://tidewell-coastal-institute.vercel.app/sitemap.xml
